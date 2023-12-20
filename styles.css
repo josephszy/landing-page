@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Header Section */
+header {
+    background-color: #1f2937;
+    padding: 1em 13em;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* Makes the list into a row without the dots*/
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5em;
+  }
+
+nav > ul > li {
+    color: #E5E7EB;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+    font-size: 18px;
+}
+
+.main-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 6em 0;
+}
+
+.main-section .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.main-section .right-side {
+    flex-shrink: 20px;
+    width: 45%;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    width: 110px;
+    padding: 10px;
+    border: none;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+}
+
+/* Card Section */
+.card-section {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    padding: 7em 0;
+    flex-wrap: wrap;
+}
+
+.information-header {
+    color: #1F2937;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 5em;
+}
+
+.item-middle {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.slot {
+    text-align: center;
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+}
+
+/* Quote section */
+.text-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 60%;
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-section .quote p {
+    color: #1F2937;
+    font-size: 24px;
+    align-self:flex-end;
+    font-weight: bolder;
+}
+
+/* Last section - sign up box */
+.sign-up-section {
+    display: flex;
+    background-color: #FFF;
+    justify-content: center;
+    padding: 5em;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 4em;
+    width: 80%;
+    border-radius: 10px;
+}
+
+strong {
+    color: #fff;
+    font-size: 24px;
+}
+
+.sign-up button {
+    border: 2px solid #fff;
+    width: 7em;
+}
+
+/* Ending, footer */
+footer {
+    background-color: #1f2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 0;
+}
